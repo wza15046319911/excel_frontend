@@ -2,8 +2,9 @@
   "containers": [
     {
       "name": "excel_frontend",
-      "domain": "test-962903-1255370898.ap-shanghai.internal-run.tcloudbase.com",
-      "ip": "10.0.0.1"
+      "domain": "",
+      "ip": "",
+      "containerId": "edc22bc5e6c6f2cd1011b30c6fb4185eba583f6259b2aa361dc68064ef1df289"
     }
   ],
   "config": {
