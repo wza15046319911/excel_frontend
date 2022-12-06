@@ -3,6 +3,7 @@ FROM node:latest AS build
 WORKDIR /app
 COPY . /app
 RUN npm install && npm run build
+CMD ["npm", "start"] 
 
 FROM nginx
 WORKDIR /usr/share/nginx/html
